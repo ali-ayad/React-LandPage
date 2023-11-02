@@ -1,8 +1,8 @@
 import React from "react";
 import './main.css'
-import phoneimg from '../img/portrait_black.png'
-import backimg from '../img/app-store-badge.svg'
-import andimg from '../img/google-play-badge.svg'
+import phoneimg from '../../Assets/img/portrait_black.png'
+import backimg from '../../Assets/img/app-store-badge.svg'
+import andimg from '../../Assets/img/google-play-badge.svg'
 
 function Main() {
     return (
@@ -19,7 +19,7 @@ function Main() {
             </div>
             <div className="side-img">
                 <video autoPlay loop muted>
-                    <source src={require('../img/demo-screen.mp4')} type="video/mp4" />
+                    <source src={require('../../Assets/img/demo-screen.mp4')} type="video/mp4" />
                 </video>
 
                 <img src={phoneimg} alt="" />

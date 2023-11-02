@@ -1,6 +1,6 @@
 import React from "react";
 import './separator.css'
-import logo from'../img/tnw-logo.svg'
+import logo from'../../Assets/img/tnw-logo.svg'
 
 function Separator() {
     return (
