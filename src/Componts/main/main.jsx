@@ -4,16 +4,16 @@ import phoneimg from '../../Assets/img/portrait_black.png'
 import backimg from '../../Assets/img/app-store-badge.svg'
 import andimg from '../../Assets/img/google-play-badge.svg'
 
-function Main() {
+function Main(props) {
     return (
         <div className="main">
             <div className="col">
-                <h1>Showcase your app beautifully.</h1>
-                <p>Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                <h1>{props.heading}</h1>
+                <p>{props.heading2}</p>
 
                 <div className="apps-btn">
-                <a><img className="img1" src={backimg} alt="" /></a>
-                <a><img className="img2" src={andimg} alt="" /></a>
+                <a href="/#"><img className="img1" src={backimg} alt="" /></a>
+                <a href="/#"><img className="img2" src={andimg} alt=""/></a>
             </div>
 
             </div>
