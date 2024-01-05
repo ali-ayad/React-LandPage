@@ -11,8 +11,9 @@ function Header() {
             <nav>
                
                     <ul>
-                        <li href="#">Feature</li>
-                        <li href="#">Download</li>
+                        <li><a href="\" >Feature</a></li>
+                        <li><a href="\" >Download</a></li>
+                        
                     </ul>
                
                 <div className="btn">

@@ -42,10 +42,13 @@
   
   .navigtion ul li{
     display: inline;
-   color: #212529;
-   text-decoration: none;
    padding: 5px 5px;
    
+  }
+
+  .navigtion ul li a{
+    color: #212529;
+    text-decoration: none;
   }
   
   .header .btn button{
